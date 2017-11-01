@@ -15,7 +15,6 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Dustin Doan",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.0",
@@ -26,5 +25,15 @@
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "stripe": "^5.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://dustinddoan:Dunglay0-@github.com/dustinddoan/surveyAppNodeReact.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustinddoan/surveyAppNodeReact/issues"
+  },
+  "homepage": "https://github.com/dustinddoan/surveyAppNodeReact#readme"
 }
