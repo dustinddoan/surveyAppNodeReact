@@ -16,7 +16,7 @@ class SurveyList extends Component {
             <p>{survey.body}</p>
             <p className="right">Sent On: {new Date(survey.dateSent).toLocaleDateString()}</p>
           </div>
-          <div class="card-action">
+          <div className="card-action">
             <a href="#">Yes: {survey.yes}</a>
             <a href="#">No: {survey.no}</a>
           </div>
